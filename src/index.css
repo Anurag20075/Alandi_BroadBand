@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Outfit', system-ui, sans-serif;
+  
+  --color-base-100: #ffffff;
+  --color-base-200: #f9fafb; /* Zinc-50 */
+  --color-base-900: #09090b; /* Zinc-950 */
+  
+  --color-accent: #0ea5e9; /* Light blue accent */
+  --color-accent-dark: #0284c7; 
+}
+
+@layer base {
+  body {
+    @apply font-sans bg-[#f9fafb] text-[#09090b] antialiased selection:bg-accent/20;
+    margin: 0;
+  }
+}
+
+/* Taste Skill Liquid Glass Utilities */
+@layer utilities {
+  .liquid-glass {
+    @apply bg-white/70 backdrop-blur-xl border border-white/20 shadow-[inset_0_1px_0_rgba(255,255,255,0.4)] shadow-[0_20px_40px_-15px_rgba(0,0,0,0.05)];
+  }
+}
