@@ -3,7 +3,7 @@ import { useEffect, useState, useRef } from "react";
 import { WifiHigh, List, X } from "@phosphor-icons/react";
 import { slideDown } from "../lib/animations";
 
-const NAV_LINKS = ["Home", "Plans", "About", "Coverage", "Contact"];
+const NAV_LINKS = ["Home", "Plans", "About",  "Contact"];
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
