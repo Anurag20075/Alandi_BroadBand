@@ -132,7 +132,7 @@ export default function Hero() {
             variants={fadeUp}
             className="text-5xl sm:text-7xl lg:text-[5.5rem] tracking-tight leading-[0.95] font-bold text-white mb-8"
           >
-            Fast. Reliable. <br />
+            Fast , Reliable, <br />
             <span className="bg-gradient-to-r from-accent to-blue-400 bg-clip-text text-transparent">
               Always Online.
             </span>
