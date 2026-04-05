@@ -164,7 +164,7 @@ export default function Hero() {
               whileHover={{ border: "1px solid rgba(255,255,255,0.3)", backgroundColor: "rgba(255,255,255,0.05)" }}
               className="h-16 px-10 rounded-2xl border border-white/10 text-white font-bold uppercase tracking-widest transition-all text-sm"
             >
-              Check Coverage
+              Contact Us
             </motion.button>
           </motion.div>
         </motion.div>
